@@ -1,0 +1,22 @@
+{
+  "id": "67",
+  "name": "67",
+  "createdBy": "Jayden S.",
+  "emoji": "🤷",
+  "type": "Fire",
+  "hp": 100,
+  "color": "#378ADD",
+  "description": "Hell.",
+  "moves": [
+    {
+      "id": "67_smash",
+      "name": "67 Smash",
+      "desc": "I hate this.",
+      "speed": "fast",
+      "damage": [
+        1000000000,
+        100000000000
+      ],
+      "status": null,
+      "statusChance": 0
+    }
