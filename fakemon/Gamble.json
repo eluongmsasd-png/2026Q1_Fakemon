@@ -22,7 +22,7 @@
       "name": "This game is RIGGED",
       "desc": "):<",
       "speed": "fast",
-      "damage": [-25, -40],
+      "damage": [-10, -20],
       "status": "statup",
       "statusChance": 0.9
     },
@@ -31,7 +31,7 @@
     {
       "id": "GAMBLING",
       "name": "GAMBLING TIME",
-      "desc": "Totallynotrigged..... (wink, wink)",
+      "desc": "Totally not rigged..... (wink, wink)",
       "speed": "medium",
       "damage": [-80, 90],
       "status": "burn",
