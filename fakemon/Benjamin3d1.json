@@ -3,7 +3,7 @@
   "name": "Prusa 3d printer",
   "createdBy": "Benjamin",
   "emoji": "🖨️",
-  "type": "metal",
+  "type": "Metal",
 
   "hp": 50,
   "atk": 70,
