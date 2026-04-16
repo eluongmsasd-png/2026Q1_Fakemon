@@ -1088,7 +1088,7 @@ function startBattle(playerId, enemyId) {
   if (playerId === enemyId) dlog(`Mirror battle! ${pBase.name} vs a copy of itself.`, 'warn');
 
   dlog(`=== BATTLE START ===`, 'battle');
-  dlog(`${pBase.name} (PWR ${pBase._power}, ${pBase.type}) vs ${eBaseClone.name} (PWR ${eBaseClone._power}, ${eBaseClone.type})${playerId===enemyId?' [MIRROR]':''}\`, 'battle');
+  dlog(`${pBase.name} (PWR ${pBase._power}, ${pBase.type}) vs ${eBaseClone.name} (PWR ${eBaseClone._power}, ${eBaseClone.type})${playerId===enemyId?' [MIRROR]':''}`, 'battle');
   dlog(`Type matchup: ${pBase.type} → ${eBaseClone.type} = ${FakemonScorer.typeMultiplier(pBase.type, eBaseClone.type)}x | ${eBaseClone.type} → ${pBase.type} = ${FakemonScorer.typeMultiplier(eBaseClone.type, pBase.type)}x`, 'battle');
   dlog(`Player moves: ${pBase.moves.map(m => `${m.name}(${m.speed || 'medium'}, ${JSON.stringify(m.damage)})`).join(' | ')}`, 'battle');
   dlog(`Enemy moves: ${eBaseClone.moves.map(m => `${m.name}(${m.speed || 'medium'}, ${JSON.stringify(m.damage)})`).join(' | ')}`, 'battle');
